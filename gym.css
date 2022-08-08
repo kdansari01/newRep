@@ -1,0 +1,163 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url('../img/gym.jpg');
+    background-size: cover;
+    background-position: fixed;
+text-decoration: none;
+}
+.left{
+    padding-left: 20px;
+    padding-top: 38px;
+    margin-left: 30px;
+    display: inline;
+    float: left;
+    color: orange;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.mid{
+width: 400px;
+float: left;
+height: 70px;
+
+}
+.mid ul{
+    /* background-color: rgba(12, 5, 5, 0.582); */
+    padding-left: 3px;
+    padding-bottom: 20px;
+    background: linear-gradient(black, transparent);
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid green; */
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    /* width: 200%; */
+}
+ul li a:hover{
+    font-size: 30px;
+    color: orange;
+}
+
+.right{
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    display: inline-block;
+
+}
+
+.search{
+    width: 330px;
+    float: right;
+    margin-left: 34px;
+}
+.srch{
+    border-radius: 30px;
+width: 200px;
+height: 25px;
+font-family: 'Times New Roman';
+background:white;
+margin-top: 30px;
+padding-left: 38px;
+border: 1px solid orange;
+}
+.btn{
+    background:orange;
+    border: 2px solid orange;
+    color: black;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: white;
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: white;
+    position: absolute;
+    top: 159px;
+    left: 107px;
+}
+
+h1{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 58px;
+    color: orange;
+}
+.par{
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 30px;
+    color: white;
+}
+.join{
+    background:orange;
+    border: 2px solid orange;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 12px;
+    margin-left: 140PX;
+}
+.join a{
+    text-decoration: none;
+    color: black;
+}
+.join:hover{
+background-color: white;
+}
+.reg{
+    width: 250px;
+    height: 236px;
+    background-color: rgba(12, 5, 5, 0.582);  
+    position: absolute;
+    padding: 20px 30px;
+    right: 97px;
+    top: 204px;
+    border-radius: 20px;
+}
+table{
+    color: white;
+
+}
+h2{
+    color: white;
+    padding-left:37px;
+    margin: 5px;
+    color: orange;
+}
+.regbtn{
+    padding: 8px;
+    margin: 10pxpx;
+    background: orange;
+    border:2px solid orange;
+}
+.regbtn a{
+    text-decoration: none;
+    color: black;
+}
+.regbtn:hover{
+    background-color: white;
+}
+/* input[placeholder='search here']{
+    color: red;
+    text-decoration: red;
+} */

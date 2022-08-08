@@ -1,0 +1,51 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    /* background : linear-gradient(skyblue,transparent); */
+    background-size: cover;
+    background-position: fixed;
+    background-color: rgb(201, 242, 248);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+    /* background-image: linear-gradient(
+        to bottom right,
+        #93cac0 0%,#5bffad 40%, #da3b14 60%, #f03f09 100%
+    );
+    background-size: 200% 200%;
+    animation: movingGradient 5slinear infinite alternate;
+}
+@keyframes movingGradient{
+    from{ background-position: 0 0;}
+} */
+}
+table{
+    padding: 20px;  
+    margin: 30px;
+    /* background-color: rgb(238, 252, 252);
+    border: 1px solid rgb(100, 226, 216); */
+    background-image: linear-gradient(
+        to bottom right,
+        #4affde 0%,#5b9dff 40%, #d06bff 60%, #ff34d2 100%
+    );
+    background-size: 200% 200%;
+    animation: movingGradient 5slinear infinite alternate;
+}
+@keyframes movingGradient{
+    from{ background-position: 0 0;}
+}
+input{
+    padding: 8px;
+    margin: 11px;
+}
+.btn{
+    font-size: 30px;
+    padding: 20px 30px;
+    margin: 20px 20px;
+
+}
+.h1{
+   font-size: 30px;
+color: blue;
+text-decoration: underline;
+}

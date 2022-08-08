@@ -1,0 +1,60 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: aquamarine;
+    background: url('/home/kdansari/Desktop/kd hacks/img/coffee-gf851429e4_1280.jpg');
+}
+
+.left{
+    position: absolute;
+    left: 60px;
+    top: 20px;
+    display: inline-block;
+    border: 2px solid yellow;
+}
+.left img{
+width: 90px;
+}
+.mid{
+display: block;
+width: 50%;
+margin: 12px auto;
+/* border:2px solid green; */
+}
+.right{
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    display: inline-block;
+    /* border: 2px solid yellow; */
+}
+.btn{
+    background-color: grey;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 25px;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 20px 30px;
+    border-radius: 2px;
+
+}
+.navbar li a:hover{
+    color: gray;
+    text-decoration: underline;
+}
+.container{
+    border: 2px solid green;
+    margin: 140px 800px;
+    padding: 60px 32px;
+    width: 20%;
+    color: azure;
+    border-radius: 100px;
+    text-align: center;
+}

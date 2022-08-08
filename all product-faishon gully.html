@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALL Product-Faishon Gully</title>
+    <link rel="stylesheet" href="/css/faishon gully.css">
+    <!-- <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"> -->
+</head>
+
+<body>
+    <div>
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <h1>
+                        FG
+                    </h1>
+                    <hr> <hr>
+                    <P>let change the style</P>
+                </div>
+                <nav>
+                    <ul>
+                        <li> <a href="#">Home</a></li>
+                        <li><a href="#">Product</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Account</a></li>
+                    </ul>
+                </nav>
+                <img src="/img/cart.png" class="menu-icon" >
+                <img src="/img/menu.png" class="menu-icon"  onclick="menutoggle()">
+            </div>
+           
+
+    <!-- features product -->
+
+    <div class="small-container">
+        <div class="row">
+            <h2>All Product</h2>
+            <select>
+                <option>
+                    Default shorting
+                </option>
+                <option>
+                short by price
+            </option>   
+            <option>
+                short by popolarity
+            </option> 
+            
+            <option>
+                short by rating
+            </option>
+            <option>
+               short by sale
+            </option>
+
+            </select>
+            
+        </div>
+
+        <div class="row">
+            <div class="col-4">
+                <img src="/img/product-1.jpg">
+                <h4>
+                    Red Printed T-shirt
+                </h4>
+                <div class="rating">
+                    <!-- <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-light fa-star"></i> -->
+                    <p>Rs.399</p>
+
+                </div>
+            </div>
+            <div class="col-4">
+                <img src="/img/product-2.jpg">
+                <h4>
+                    Black HRX Shoes
+                </h4>
+                <div class="rating">
+                    <!-- <i class="fa-solid fa-star"></i> -->
+                    <!-- <i class="fa-solid fa-star"></i> -->
+                    <!-- <i class="fa-solid fa-star"></i> -->
+                    <!-- <i class="fa-solid fa-star"></i> -->
+                    <!-- <i class="fa-light fa-star"></i> -->
+                    <p>Rs.399</p>
+
+                </div>
+            </div>
+            <div class="col-4">
+                <img src="/img/product-3.jpg">
+                <h4>
+                    Black trouser
+                </h4>
+                <div class="rating">
+                    <!-- <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-light fa-star"></i> -->
+                    <p>Rs.399</p>
+
+                </div>
+            </div>
+            <div class="col-4">
+                <img src="/img/product-4.jpg">
+                <h4>
+                    Black T-shirt
+                </h4>
+                <div>
+                    <p>Rs.499</p>
+                </div>
+            </div>
+
+
+
+
+          
+<!-- ------------footer------------ -->
+
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col">
+                <h4>company</h4>
+                <ul>
+                    <li><a href="#">about us</a></li>
+                    <li><a href="#">our services</a></li>
+                    <li><a href="#">privacy policy</a></li>
+                    <li><a href="#">affiliate program</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>get help</h4>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">shipping</a></li>
+                    <li><a href="#">returns</a></li>
+                    <li><a href="#">order status</a></li>
+                    <li><a href="#">payment options</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>online shop</h4>
+                <ul>
+                    <li><a href="#">watch</a></li>
+                    <li><a href="#">bag</a></li>
+                    <li><a href="#">shoes</a></li>
+                    <li><a href="#">dress</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>follow us</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script>
+    var MenuItem=document.getElementById("MenuItem");
+    MenuItem.style.maxHeight="0px";
+    function menutoggle(){
+        if (MenuItem.style.maxHeight="0px") {
+            MenuItem.style.maxHeight="200px";
+        }
+        else{
+            MenuItem.style.maxHeight="0px";
+        }
+    }
+</script>
+
+</body>
+
+</html>
